@@ -1,0 +1,25 @@
+{
+  "name": "clicky",
+  "version": "1.0.0",
+  "homepage": "https://cgjupoulton.github.io/spacetimedb-test",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /spacetimedb-test/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^19.1.5",
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@clockworklabs/spacetimedb-sdk": "^1.1.0",
+    "@types/react-dom": "^19.1.5",
+    "parcel": "^2.15.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}

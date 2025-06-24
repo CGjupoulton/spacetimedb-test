@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",               // Target modern browsers (use ES5 if you need older browser support)
+    "module": "ESNext",               // Use ES modules for browser compatibility
+    "outDir": "./build",            // Output folder for compiled JS
+    "rootDir": "./src",            // Location of your source TS files
+    "strict": false,                // Enable strict type-checking
+    "esModuleInterop": true,       // Support for default imports
+    "moduleResolution": "node",    // Ensure module resolution works
+    "allowJs": true,               // Allow including JS files if needed
+    "sourceMap": true         ,     // Generate source maps for debugging in the browser
+    "jsx": "react",              // Support JSX syntax for React
+    
+  },
+  "include": ["src/**/*"],          // Include all TypeScript files in the src folder
+  "exclude": ["node_modules"]       // Exclude the node_modules folder
+}
