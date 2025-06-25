@@ -150,7 +150,7 @@ export default function App() {
     <>
     <ConnectedUsers users={users} />
     <div id="game-container">
-      <h1>SpacetimeDB test</h1>
+      <h1>Steve MMO</h1>
       <p>Your name is: {myUser?.name} <button onClick={() => handleResetName()}>edit</button></p>
       <div
       id="grid"
